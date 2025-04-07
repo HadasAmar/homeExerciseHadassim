@@ -1,0 +1,128 @@
+.orders-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.orders-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-buttons button.active {
+    background-color: #248eff;
+    color: white;
+    font-weight: bold;
+}
+
+.filter-buttons button:hover {
+    background-color: #c6dfff;
+}
+
+.orders-table {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.orders-table thead {
+    background-color: #333;
+    color: white;
+}
+
+.orders-table th, .orders-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.orders-table tbody tr:hover {
+    background: #f1f1f1;
+}
+
+.complete-btn, .view-products-btn{
+    background-color: #248eff;;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.status-message {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.order-products-modal {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-products-modal h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.order-products-modal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-products-modal li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    color: #444;
+}
+
+.order-products-modal button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 8px 16px;
+    background-color: #007bff;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

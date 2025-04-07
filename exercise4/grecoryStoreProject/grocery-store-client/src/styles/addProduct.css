@@ -1,0 +1,111 @@
+
+/* קונטיינר כללי לדף */
+.add-product-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* עיצוב של הפורם */
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-product-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-product-form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.add-product-form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-product-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.add-product-form button:hover {
+    background-color: #0056b3;
+}
+
+/* הצגת סטטוס */
+p {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.add-product-form p {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.error-message {
+    color: #f44336;
+}
+
+.success {
+    color: #4caf50;
+}
+
+/* עיצוב טבלה */
+table {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+}
+
+table td {
+    font-size: 16px;
+}
+
+/* כותרת של המוצרים */
+h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}

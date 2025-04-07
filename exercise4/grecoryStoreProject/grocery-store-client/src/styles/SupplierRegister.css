@@ -1,0 +1,65 @@
+
+.supplier-container {
+    background-color: #f8f9fa;
+    min-height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supplier-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.supplier-form h2, .supplier-form h3 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.supplier-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.product-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.supplier-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.supplier-form button:hover {
+    background-color: #0056b3;
+}
+
+.status-message {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.status-message.error {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
